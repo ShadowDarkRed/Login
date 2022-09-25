@@ -42,23 +42,28 @@ padding: 5px;
 .button{
     background: #bd3038;
     width: 100%;
-    border-radius: 15px;
-    padding: 15px;
+    border-radius: 25px;
+    padding: 15px 25px;
     color: white;
     border: 2px solid #bd3239;
     outline: 0;
     font-weight: 600;
-    font-size: 0.9rem;
+    font-size: 16px;
     border-bottom: 5px solid #852328 ;
+    cursor: pointer;
+    transition: 0.3s ease;
 }
 
 .button:hover{
-transform: translate(0px, -2px);
+transform: translate(0px, -1px);
 transition: 0.3s;
+letter-spacing: 1px;
 }
 
 .button:active{
-    color: #7c7575;
+    color: #dbdada;
+    transform: scale(1.05);
+    transition: all 0.5s;
 }
 
 .imglogin{
